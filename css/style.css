@@ -147,7 +147,7 @@ footer p{
 /* mobile */
 @media(max-width: 600px){
     .contenitor {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .navbar{
@@ -234,7 +234,8 @@ footer p{
 }
 
 .capitolo_half{
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     justify-content:space-between;
     align-items: center;
 }
@@ -244,6 +245,7 @@ footer p{
     align-items: left;
     margin: 5px;
     gap: 5px;
+    margin-right: 0;
 }
 
 .capitolo_half p{
