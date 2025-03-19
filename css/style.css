@@ -1,282 +1,157 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
-*{
+* {
     box-sizing: border-box;
-    margin:  0;
+    margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* font-family: 'EB Garamond', serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-body{
-    background: linear-gradient(to right, #AA5F88 50%,  #9C3466 50%);
+
+body {
+    background: linear-gradient(to right, #AA5F88 50%, #9C3466 50%);
     color: white;
 }
 
-
-/* navbar */
-.navbar{
-    margin:  20px 0 ;
+/* Navbar */
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 0;
-    padding: 30px;
+    padding: 20px;
     background: white;
+    flex-wrap: wrap;
 }
 
-.Marchio{
-    margin-left: 20px;
+.Marchio {
     color: #9C3466;
     text-decoration: none;
     font-size: 24px;
+    margin-left: 20px;
 }
 
-.Marchio{
-    margin-left: 10px;
-    font-size: 24px;
-}
-
-.menu{
-    gap: 25px;
+.menu {
     list-style: none;
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.menu a{
+.menu a {
     color: #9C3466;
     text-decoration: none;
-    font-size: 24px;
-    margin-right: 10px;
+    font-size: 18px;
 }
 
-/* main */
+/* Main */
 .titolo {
     margin-top: 20px;
-    background: white ;opacity: 0.5;
-    padding: 50px;
+    background: white;
+    opacity: 0.8;
+    padding: 40px;
     text-align: center;
-    font-size: 46px;
+    font-size: 36px;
     color: #9C3466;
 }
 
-/* capitolo */
-.capitolo{
+/* Capitolo */
+.capitolo {
     margin-top: 20px;
 }
 
-.capitolo img{
-     width: 100%;
-     margin-top: 100px;
+.capitolo img {
+    width: 100%;
+    margin-top: 50px;
 }
 
-
-.capitolo_copy{
-    width: 50%;
+.capitolo_copy {
+    width: 80%;
     margin: 0 auto;
-
+    text-align: center;
 }
 
-.capitolo_copy h2{
-    margin: 0 auto;
-    margin-bottom: 40px;
-}
-
-.capitolo_copy ul{
-    font-size: 20px;
-}
-
-.capitolo_copy li{
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.capitolo_copy h2{
-    margin-top: 60px;
-    position: relative;
-    left: -20px;
-}
-
-.capitolo_half{
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-    margin: 0 auto;
-}
-
-.capitolo_half img{
-    max-width: 35%;
-    margin-top: 200px;
-    margin-bottom: 100px;
-    margin-right: 80px;
-}
-
-
-.capitolo_half p{
-    max-width: 35%;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    margin-left: 80px;
+.capitolo_copy h2 {
+    margin-bottom: 30px;
     font-size: 24px;
-   
 }
 
-footer{
-    background: white;
+.capitolo_copy ul, .capitolo_copy li {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.capitolo_half {
     display: flex;
-    padding: 40px;    
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
+    gap: 30px;
 }
 
-footer p{
-    color: #9C3466;
-    margin-left: 20px;
+.capitolo_half img, .capitolo_half p {
+    width: 80%;
+}
+
+.capitolo_half p {
     font-size: 20px;
 }
-.icon{
-    display: flex;
-    gap: 20px;
-    margin-right: 20px;
-    font-size: 28px;
-}
-.icon a{
-    color: #9C3466;
-    text-decoration: none;
-}
 
-/* mobile
-@media(max-width: 600px){
-    .contenitor {
-        grid-template-columns: 1fr;
-    }
-
-    .navbar{
-    margin:  10px 0 ;
+/* Footer */
+footer {
+    background: white;
     display: flex;
+    padding: 20px;
     align-items: center;
     justify-content: space-between;
-    margin-top: 0;
-    padding: 5px;
-    background: white;
+    flex-wrap: wrap;
 }
 
-.logo{
-    margin-left: 40px;
+footer p {
     color: #9C3466;
-    text-decoration: none;
     font-size: 16px;
 }
 
-.menu{
-    gap: 10px;
-    list-style: none;
-    display: flex;
-    margin-right: 0px;
-    font-size: 12px;
-}
-
-.menu a{
-    color: #9C3466;
-    text-decoration: none;
-    font-size: 12px;
-}
-
-.titolo {
-    margin-top: 20px;
-    opacity: 0.6;
-    background: white ;
-    padding: 10pxpx;
-    text-align: center;
-    font-size: 40px;
-    color: #9C3466;
-}
-
-
-.capitolo{
-    margin-top: 20px;
-    
-}
-
-.capitolo img{
-     width: 100%;
-     margin-top: 20px;
-     margin-bottom: 20px;
-}
-
-.capitolo_copy{
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 40px;
-
-}
-
-.capitolo_copy h2{
-    margin: 0 auto;
-    margin-top: 20px;
-
-}
-
-.capitolo_copy ul{
-    font-size: 30px;
-    margin-bottom: 60px;
-}
-
-.capitolo_copy li{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.capitolo_copy h2{
-    margin-top: 100px;
-    margin-bottom: 50px;
-    position: relative;
-    left: -20px;
-}
-
-.capitolo_half{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content:space-between;
-    align-items: center;
-}
-
-.capitolo_half img{
-    width: 100%;
-    align-items: left;
-    margin: 5px;
-    gap: 5px;
-    margin-right: 0;
-}
-
-.capitolo_half p{
-    width: 100%;
-    align-items: right;
-    margin: 5px;
-    gap: 5px;
-    font-size: 30px;
-}
-
-footer{
-    width: 100%;
-    background: white;
-    display: flex;
-    height: 50px;    
-    align-items: center;
-    justify-content: space-between;
-}
-
-footer p{
-    color: #9C3466;
-    margin-left: 10px;
-}
-.icon{
+.icon {
     display: flex;
     gap: 15px;
-    margin-right: 10px;
-
 }
-.icon a{
+
+.icon a {
     color: #9C3466;
     text-decoration: none;
-} 
-} */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .titolo {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .capitolo_half {
+        flex-direction: column;
+    }
+
+    .capitolo_half img, .capitolo_half p {
+        width: 90%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+}
+
+
+
