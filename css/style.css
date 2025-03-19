@@ -147,7 +147,7 @@ footer p{
 /* tablet */
 @media(max-width:600px){
     .contenitor {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     /* navbar */
