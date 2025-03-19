@@ -145,7 +145,7 @@ footer p{
 }
 
 /* mobile */
-@media(max-width: 600px){
+@media(max-width: 300px){
     .contenitor {
         grid-template-columns: 1fr;
     }
