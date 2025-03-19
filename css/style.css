@@ -242,8 +242,10 @@ footer p{
 }
 
 .capitolo_half img{
-    max-width: 250px;
+    max-width: 200px;
     margin: 50px;
+    width: 50%;
+    margin-left: 50%;
 }
 
 .capitolo_half p{
