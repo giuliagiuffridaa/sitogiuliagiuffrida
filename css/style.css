@@ -144,52 +144,34 @@ footer p{
     text-decoration: none;
 }
 
-/* mobile */
-@media(max-width: 600px){
-    .contenitor {
-        grid-template-columns: 1fr;
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
     }
 
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
 
-    .header ”{
-        max-width: 600px;
+    .titolo {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .capitolo_copy,
+    .capitolo_half p {
         width: 100%;
+        font-size: 18px;
     }
-     
 
+    .capitolo_half img {
+        max-width: 90%;
+    }
 
-
-     .titolo {
-    max-width: 600px;
-    width: 100%;
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
-    font-size: 40px;
-    color: #9C3466;
-}
-
-
-     .capitolo{
-    max-width: 600px;
-    width: 100%;
-    margin-top: 20px;
-    
-}
-
-
-     .capitolo_half{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content:space-between;
-    align-items: center;
-    max-width: 600px;
-    width: 100%;
-}
-
-     footer{
-    min-width: 600px;
-    width: 100%;
-}
-
+    footer {
+        padding: 20px;
+    }
 }
