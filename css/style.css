@@ -149,9 +149,6 @@ footer p{
 @media(max-width: 300px){
     .contenitor {
         flex-direction: column;
-        margin: auto;
-        height: auto;
-        width: 100%;
     }
 
     .navbar{
@@ -162,13 +159,14 @@ footer p{
     margin-top: 0;
     padding: 5px;
     background: white;
+    font-size: 8px;
 }
 
-.logo{
+.Marchio{
     margin-left: 40px;
     color: #9C3466;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 8px;
 }
 
 .menu{
@@ -176,28 +174,29 @@ footer p{
     list-style: none;
     display: flex;
     margin-right: 0px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
 .menu a{
     color: #9C3466;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 8px;
 }
 
 .titolo {
-    margin-top: 20px;
+    margin-top: 10px;
     opacity: 0.6;
     background: white ;
     padding: 10pxpx;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: #9C3466;
 }
 
 
 .capitolo{
     margin-top: 20px;
+    text-align: center;
     
 }
 
@@ -210,30 +209,23 @@ footer p{
     width: 50%;
     margin: 0 auto;
     margin-top: 40px;
-
+   text-align: center;
 }
 
-.capitolo_copy h2{
-    margin: 0 auto;
-    margin-top: 20px;
-
-}
 
 .capitolo_copy ul{
     font-size: 30px;
     margin-bottom: 60px;
+    font-size: 12px;
 }
 
-.capitolo_copy li{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
 
 .capitolo_copy h2{
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 50px;
     position: relative;
     left: -20px;
+    font-size: 24px;
 }
 
 .capitolo_half{
@@ -242,7 +234,7 @@ footer p{
 }
 
 .capitolo_half img{
-    width: 100%;
+    width: 50%;
     align-items: left;
     margin: 5px;
     gap: 5px;
@@ -250,11 +242,11 @@ footer p{
 }
 
 .capitolo_half p{
-    width: 100%;
+    width: 50%;
     align-items: right;
     margin: 0 auto;
     gap: 5px;
-    font-size: 30px;
+    font-size: 12px;
 }
 
 footer{
@@ -269,12 +261,13 @@ footer{
 footer p{
     color: #9C3466;
     margin-left: 10px;
+    font-size: 12px;
 }
 .icon{
     display: flex;
     gap: 15px;
     margin-right: 10px;
-
+    font-size: 12px;
 }
 .icon a{
     color: #9C3466;
