@@ -150,8 +150,7 @@ footer p{
         grid-template-columns: 1fr;
     }
 
-    /* navbar
-.navbar{
+    .navbar{
     margin:  20px 0 ;
     display: flex;
     align-items: center;
@@ -180,14 +179,14 @@ footer p{
     color: #9C3466;
     text-decoration: none;
     font-size: 16px;
-}
+} */ */
 
 /* main */
 .titolo {
     margin-top: 20px;
     opacity: 0.6;
     background: white ;
-    padding: 45px;
+    padding: 0px;
     text-align: center;
     font-size: 45px;
     color: #9C3466;
@@ -275,5 +274,5 @@ footer p{
 .icon a{
     color: #9C3466;
     text-decoration: none;
-} */
+} 
 }
