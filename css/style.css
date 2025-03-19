@@ -144,19 +144,19 @@ footer p{
     text-decoration: none;
 }
 
-/* tablet */
-@media(max-width:400px){
+/* mobile */
+@media(max-width: 600px){
     .contenitor {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .navbar{
-    margin:  20px 0 ;
+    margin:  10px 0 ;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 0;
-    padding: 0;
+    padding: 5px;
     background: white;
 }
 
@@ -168,31 +168,30 @@ footer p{
 }
 
 .menu{
-    gap: 25px;
+    gap: 10px;
     list-style: none;
     display: flex;
     margin-right: 0px;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .menu a{
     color: #9C3466;
     text-decoration: none;
-    font-size: 16px;
-} */ */
+    font-size: 12px;
+}
 
-/* main */
 .titolo {
     margin-top: 20px;
     opacity: 0.6;
     background: white ;
-    padding: 0px;
+    padding: 10pxpx;
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     color: #9C3466;
 }
 
-/* capitolo */
+
 .capitolo{
     margin-top: 20px;
     
@@ -212,23 +211,23 @@ footer p{
 }
 
 .capitolo_copy h2{
-    /* margin: 0 auto; */
+    margin: 0 auto;
     margin-top: 20px;
 
 }
 
 .capitolo_copy ul{
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 60px;
 }
 
 .capitolo_copy li{
-    font-size: 8px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
 .capitolo_copy h2{
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 50px;
     position: relative;
     left: -20px;
@@ -242,19 +241,19 @@ footer p{
 }
 
 .capitolo_half img{
-    margin: 50px;
-    width: 50%;
+    margin: 15px;
+    width: 40%;
     margin-left: 50%;
 }
 
 .capitolo_half p{
-    max-width: 400px;
-    margin: 60px;
-    font-size: 26px;
-   
+    width: 40%;
+    margin: 15px;
+    font-size: 30px;
 }
 
 footer{
+    width: 100%;
     background: white;
     display: flex;
     height: 50px;    
@@ -264,12 +263,12 @@ footer{
 
 footer p{
     color: #9C3466;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .icon{
     display: flex;
-    gap: 10px;
-    margin-right: 20px;
+    gap: 15px;
+    margin-right: 10px;
 
 }
 .icon a{
