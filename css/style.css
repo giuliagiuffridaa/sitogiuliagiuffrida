@@ -144,8 +144,8 @@ footer p{
     text-decoration: none;
 }
 
-/* mobile */
-@media(max-width: 300px){
+/* mobile
+@media(max-width: 600px){
     .contenitor {
         grid-template-columns: 1fr;
     }
@@ -279,4 +279,4 @@ footer p{
     color: #9C3466;
     text-decoration: none;
 } 
-}
+} */
