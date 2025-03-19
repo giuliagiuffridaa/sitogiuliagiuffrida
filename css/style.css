@@ -150,7 +150,7 @@ footer p{
         grid-template-columns: 1fr;
     }
 
-    /* navbar */
+    /* navbar
 .navbar{
     margin:  20px 0 ;
     display: flex;
@@ -275,5 +275,5 @@ footer p{
 .icon a{
     color: #9C3466;
     text-decoration: none;
-}
+} */
 }
